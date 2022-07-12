@@ -7,6 +7,7 @@ const MarkerClusterGroup = createPathComponent(
   ({ children: _c, ...props }, ctx) => {
     const clusterProps = {};
     const clusterEvents = {};
+    console.log('djc children', _c);
 
     // Splitting props and events to different objects
     Object.entries(props).forEach(([propName, prop]) =>
